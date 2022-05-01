@@ -56,7 +56,7 @@ a {
     border-top: 5px;
 }
 .btn {
-  background-color:  #ff0000d2;
+  background-color:  #d90f0fce;
   padding: 0.5rem 1.25rem;
   cursor: pointer;
   border-radius: 5px;
@@ -64,7 +64,7 @@ a {
 }
 
 .btn:hover {
-  background-color: #26ff13;
+  background-color: #27ff13cf;
 }
 
 .btn-dark {
