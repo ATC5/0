@@ -296,5 +296,7 @@ a {
 height: 50px;
 padding: 10px;
 }
-
+body{
+  font-family: 'Cairo', sans-serif;
+}
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
