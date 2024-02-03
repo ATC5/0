@@ -1,7 +1,7 @@
 /* Roboto Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Colors Used: #08D9D6  -  #252A34  -  #FF2E63  -  #EAEAEA */
+/* Colors Used: #08D9D6  -  #252A34  -  الالوان الي احتاجها#FF2E63  -  #EAEAEA */
 
 /* Reset */
 * {
@@ -28,7 +28,7 @@ a {
 }
 
 .primary-text {
-  color: #FF2E63;
+  color: #f40029;
 }
 
 .text-center {
@@ -36,8 +36,8 @@ a {
 }
 
 .bg-dark {
-  background-color: #0a49469c;
-  color: #fff;
+  background: linear-gradient(rgba(81, 93, 103, 0.631),rgb(108, 132, 171) 100%);
+  
 }
 
 .bg-light {
@@ -60,7 +60,7 @@ a {
   padding: 0.5rem 1.25rem;
   cursor: pointer;
   border-radius: 5px;
-  color: rgb(2, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .btn:hover {
@@ -296,6 +296,8 @@ a {
 height: 50px;
 padding: 10px;
 }
+
+
 body{
   font-family: 'Cairo', sans-serif;
 }
