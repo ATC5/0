@@ -36,7 +36,7 @@ a {
 }
 
 .bg-dark {
-  background: linear-gradient(rgba(81, 93, 103, 0.631),rgb(108, 132, 171) 100%);
+  background: linear-gradient(rgba(6, 78, 138, 0.685),rgb(64, 86, 122) 100%);
   
 }
 
@@ -302,3 +302,5 @@ body{
   font-family: 'Cairo', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+
