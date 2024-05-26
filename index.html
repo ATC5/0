@@ -1,306 +1,328 @@
-/* Roboto Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Colors Used: #08D9D6  -  #252A34  -  الالوان الي احتاجها#FF2E63  -  #EAEAEA */
-
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Main Style */
-html, body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6rem;
-  color: #252A34;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* Utility Classes */
-.container {
-  max-width: 80%;
-  margin: auto;
-}
-
-.primary-text {
-  color: #f40029;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.bg-dark {
-  background: linear-gradient(rgba(6, 78, 138, 0.685),rgb(64, 86, 122) 100%);
-  
-}
-
-.bg-light {
-  background-color: #EAEAEA;
-}
-
-.bg-primary {
-  background-color: #28183d;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-.bg-primary h2{
-    text-align: center;
-    color: #e70404;
-    font-size: 35px;
-    border-top: 5px;
-}
-.btn {
-  background-color:  #d90f0fce;
-  padding: 0.5rem 1.25rem;
-  cursor: pointer;
-  border-radius: 5px;
-  color: rgb(0, 0, 0);
-}
-
-.btn:hover {
-  background-color: #27ff13cf;
-}
-
-.btn-dark {
-  background-color: #252A34;
-}
-
-.py-1 { 
-  padding: 1.5rem 0;
-}
-
-.py-2 {
-  padding: 2rem 0;
-}
-
-.py-3 {
-  padding: 3rem 0;
-}
-
-.p-1 {
-  padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 2rem;
-}
-
-.p-3 {
-  padding: 3rem;
-}
-
-.l-heading {
-  font-size: 3rem;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.m-heading {
-  font-size: 2rem;
-  line-height: 2;
-}
-
-.lead {
-  font-size: 1.5rem;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-}
-
-.box-shadow {
-  box-shadow: 0 0 2px #252A34;
-}
-/* Section: Navbar */
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.75rem;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-#navbar .logo img {
-  width: 70px;
-  display: block;
-
-}
-
-#navbar ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-#navbar ul li a {
-  padding: 1rem;
-  color: rgb(255, 255, 255);
-}
-
-#navbar ul li a:hover {
-  background-color: #516283;
-  border-radius: 5px;
-}
-
-/* Showcase */
-#showcase {
-  background: #252A34 url(../img/1.jpg) no-repeat center center/cover;
-  height: 100vh;
-  color: rgb(255, 255, 255);
-}
-
-.showcase-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: 1.5rem;
-
-  /* overlay */
-  background-color: rgba(0,0,0, 0.9);
-}
-
-/* Section: About */
-#about .about-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<!DOCTYPE html>
+<html lang="ar">
+<head>
  
-#about .about-content div, 
-#about .about-content img {
-  flex: 1;
-}
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-#about .about-content img {
-  display: block;
-  width: 50%;
-  border: 3px solid rgb(7, 59, 71);
-  margin-left: 1rem;
-}
+  <title>هندسة الملاحة والتوجيه</title>
+  
+<link rel="icon" href="img/logo2.png">
 
-/* cta */
-#cta {
-  background: #252A34 url(../img/cta.jpg) no-repeat center center/cover;
-  color: rgb(255, 255, 255);
-}
+<i class="fa-solid fa-plane-up"></i>
+  <!-- Main Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- WideScreen Style -->
+  <link rel="stylesheet" href="./css/widescreen.css" media="screen and (min-width: 1100px)">
+  <!-- Smartphone Style -->
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)">
+</head>
+  
+  
+  
+       <!-- بداية النص المتحرك -->
 
-#cta .cta-content {
-  display: flex;
+   
+  
+  
+  
+    <marquee style="color:#082c2e;scrollamount=""3" behavior="alternate" background-color: #51c21c;>
+    <h5>2023 جميع الحقوق محفوظة للمهندس علي </h5>
+    
+    
+    </marquee>
+  
+  
+  
+  
+  
+  
+    <!-- نهاية النص المتحرك -->
+  
+  
+  
+<body
+id="home">
+
+
+  
+
+  <!-- Navbar -->
+  
+  <nav  id="navbar" class="bg-dark">
+      <div class="logo">
+        <a href="#home"><img src="./img/logo.png" alt="GYM Logo"></a>
+      </div>
+      <ul>
+        <li><a href= "table.html"  style="
+        
+          background-color:  #FF8C00;
+
+          display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  min-height: 350px;
-  overflow: hidden;
-  background-color: rgba(0,0,0,0.6);
- }
-
- /* Our Programs */
-#programs .boxes {
-  display: flex;
-  justify-content: space-between;
-}
-
-#programs .boxes .box {
-  flex: 1;
-}
-
-#programs .boxes .box img {
-  width: 100px;
-  background-color: #ffffff;
-  padding: 0.5rem;
-  border-radius: 100%;
-  color: #252A34;
-}
-
-/* Trainers */
-#trainers .trainer-boxes {
-  display: flex;
-}
-
-#trainers .trainer-boxes .trainer-box {
-  flex: 1;
-  background-color: rgb(255, 255, 255);
-  margin: 1rem;
-  border-radius: 5px;
-}
-
-#trainers .trainer-boxes .trainer-box img {
-  width: 100%;
-  display: block;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-#trainers .trainer-boxes .trainer-box ul {
-  display: flex;
-  list-style: none;
-}
-
-#trainers .trainer-boxes .trainer-box ul li {
-  margin-right: 0.75rem;
-}
-
-#trainers .trainer-boxes .trainer-box ul li i {
-  color: #252A34;
-}
-
-#trainers .trainer-boxes .trainer-box ul li i:hover {
-  color: #FF2E63;
-}
-
-
-/* Contact  */
-#contact {
-  display: ;
-}
-
-#contact .contact-us, 
-#contact .map {
-  flex: ;
-}
-
-#contact .contact-us input, 
-#contact .contact-us textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: none;
-  margin-bottom: 1rem;
-  outline: none;
-}
-
-#contact .contact-us .form-group {
-  display: ;
-}
-
-#contact .contact-us .form-group input[type="text"] {
-  margin-right:0.75rem ;
-}
-
-.about-3 h1{
+          padding: 0.5rem 1.25rem;
+          cursor: pointer;
+          border-radius: 400px;
+          color: #000000;
+          text-align: center;
+          font-size: 20px;
+          width: 100%;
+          
+          ">نشاطات الفرع </a></li>
+      </li>
+            </ul>
+   </div>
+  </section>  
+      
+<p style=  " color: rgb(255, 255, 255);font-size: 20px; " >الموقع مستقل تماما</p>
+  </nav>
   
-  margin: 15px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  background-color: #516283;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 4px;
-  border: #fff solid 3px;
-height: 50px;
-padding: 10px;
-}
+ 
+
+  
+  
+<section id="showcase" class="text-center">
+    <div class="showcase-content">
+      
+   
+      <h1 class="l-heading py-1"> </>اهلا بكم في قسم الكهروميكانيك /فرع الملاحة والتوجيه <br><span class="primary-text">"عشاق للطيران"</span></h1> للتواصل مع المطور 
+
+      <a href="https://instagram.com/krade3?igshid=YmMyMTA2M2Y=" class="btn">اضغط هنا</a>
+    </div>
+  </section>
+
+  <section id="about" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center py-1">اهلا بكم في موقعنا<span class="primary-text"> الفرع تأسس العام الدراسي </span></h2>
+      <h2 class="m-heading text-center py-1"><span class="primary-text"> 2014-2015 </span></h2>
+      <div class="about-content">
+        <div>
+                <hr style="background:rgba(0, 131, 143, 1); height:2px; border: 0px; ">                
+                  <br>   
+                       <h1 style="text-align: center; color: rgb(87, 1, 1);"> لائحة الشرف للمهندسين المبدعين الدفعة التاسعة</h1>
+                       <br>
+                       <hr style="background:rgba(0, 131, 143, 1); height:2px; border: 0px; ">
+                       <br>
+ 
+<h5>المهندس : محمد قيس عبد الكافي</h5>
+<h5>المهندس : محمد عبد القادر</h5>
+<h5>المهندس : علي حيدر اموري  </h5>
+<h5>المهندس :   حسين جواد كاظم</h5>
+<h5>المهندس :    عبد الحميد ثامر</h5>
+<h5>المهندس : عبدالله ليث جاسم</h5>
+<h5>المهندس : حسنين قحطان كاظم</h5>
+<h5>المهندس :حيدر احمد راضي</h5>
+
+                  <br>              
+                  <br>  
+                  <hr style="background:rgb(63, 83, 85); height:1px; border: 0px; ">
+                  <br> 
+                  <h4 style="text-align: center; background-color: darkgray;">لوحة خاصة بتعليقات الطلاب</h4>
+                  <br>              
+                  <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:480px;height:352px;max-width:100%"><iframe src="https://padlet.com/padlets/rmdvn0zftc7desw1/embeds/preview_embed" style="width:100%;height:100%;display:block;padding:0;margin:0" frameborder="0"></iframe></div>
+                  <br>  
+                  <hr style="background:rgb(70, 73, 73); height:1px; border: 0px; ">
+                  <br> 
+                  <mark>نبذة عن هندسة الملاحة</mark>
+                  <br> 
+          <br>
+          <h4>مراقبة جوية
+
+            
+            المراقبة الجوية هي تنظيم حركة الطائرات في التنقل والحركة، والسير متجاورين أو متعامدين فيما بينهما بمسافة قد تبعد بكثير أو تقترب بدرجة متقاربة بقليل دون أن تلامس بعضها، إلاّ من خلال ذلك الاقتراب الجغرافي في حدود الزمان والمكان، وامداد يد العون والمساعدة في حالات الطوارئ بمساندة الجهات المعنية. إن الحركة الملاحية لم تكن في بدايات عهد الطيران بكثافة ما نشهده اليوم من ازدحام في الأجواء، فقد كانت وقتها إجراءات عمليات الطيران تتم من قبل قائد الطائرة والمتنبئ بالأحوال الجوية، ولكن مع تطور السفر جواً في بداية العشرينات برزت الحاجة ملحة إلى تنظيم تلك الحركة الجوية من قبل جهة موحدة؛ مما استدعى التفكير في مهنة "المراقبة الجوية"، والتي بدأ معها ظهور كادر لا يقل عن الطيارين أهمية، وهم "المراقبون الجويون" والذين يقع على عاتقهم تنظيم حركة الطائرات على الأرض وفي السماء لمنع حدوث أي تصادم. و قد تم تحديده</h4>
+            <br>
+            
+            <h4>اقسام المراقبة الجوية </h4>
+<h4>1. مراقب الانطلاق Delivery control (DEL).</h4>
+<h4>2. مراقب الأرضية Ground control (GND)</h4>
+<h4>3.برج المراقبة Aerodrome control tower</h4>
+<h4>4. مراقبة الاقتراب Approach control unit</h4>
+<h4>5. مراقبة المنطقة Area control center</h4>
+          <br>
+          <hr style="background:rgba(213, 0, 0, 1); height:2px; border: 0px; ">
+          <br>
+          <p> هندسة الملاحة والتوجيه من التخصصات النادرة في العراق والعالم ويعد اول فرع يختص بدراسة هندسة الملاحة والتوجيه في العراق. ومجالات العمل ضمن هذا الاختصاص هي:
+            • وزارة الدفاع بكافة صنوفها.
+            • وزارة النقل والمواصلات
+            • وزارة الزراعة
+            • وزارة النفط
+            • وزارة الداخلية
+            • الارصاد الجوية
+            • وزارة الكهرباء
+            • وزارة الشباب والرياضة
+            • وزارة الاسكان والاعمار. وغيرها من الوزارات والقطاعات الخاصة الاخرى.</p>
+        </div>
+        <img class="box-shadow" src="./img/about-us.jpg" alt="About Us">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="text-center">
+    <div class="cta-content">
+      <div class="container">
+        <h1 class="l-heading py-1">قليل <span class="primary-text">العلم</span>, فاسد <span class="primary-text">العقل</span></h1>
+        <p class="lead">و مهمة الفرع تخريج مهندسين بكفاءة عالية في مجال هندسة الملاحة والتوجيه لهم اِلمام ومعرفة في هذا التخصص تؤهلهم للعمل في تصميم وتنفيذ المنظومات الملاحية المختلفة ومنظومات السيطرة والتتبع لمسار المركبات المختلفة والعمل الميداني في الطائرات والمطارات والسفن والقاطرات والمركبات</p>
+        <a href="https://m.facebook.com/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D8%A9-499007110205270/?tsid=0.590141176791777&source=result" class="btn">للتواصل أضغط هنا</a>
+        
+     </div>
+    </div>
+  </section>
+
+  <section id="programs" class="text-center py-1">
+    <hr>
+    <h2 class="m-heading py-1"> <span class="primary-text">: معلومات اكثر</span></h2>
+    <hr>
+    <div class="container">
+    <div class="boxes">
+      <div class="box p-1">
+        <img src="./img/Yoga-icon.png" alt="Fitness">
+        <div>
+          <h3>الجهات التي وظفت خريجي تخصص هندسة الملاحة والتوجيه</h3>
+          <mark>بالرغم من تخرج دفعتين لحد الان الا ان عددا" لا باس به قد تم تعيينه في الجهات التالية:</mark>
+          <p>• وزارة الدفاع</p>
+          <p>• وزارة النقل</p>
+          <p>• وزارة الداخلية</p>
+        </div>
+      </div>
+      <div class="box p-1">
+        <img src="./img/Yoga-icon.png" alt="Bodybuilding">
+        <div>
+          <h3> الدراسات العاليا</h3>
+          <mark> الماجستير والدبلوم العالي</mark>
+          <p style="color: red;font-size:large;"> :الماجستير</p>
+        </div>
+        <p> هندسة الملاحة والتوجيه هو فرع هندسي من فروع قسم الهندسة الكهروميكانيكية. تم استحداث الدراسات العليا ( الماجستير ) في تخصص هندسة الملاحة والتوجيه للعام الدراسي 2020/2021 لغرض مواكبة التطور السريع الحاصل في العلوم الهندسية لمنظومات الملاحة و التتبع و التوجيه و استخداماتها و تطبيقاتها الواسعة في البر و البحر و الجو</p>
+        <p style="color: red;font-size:large;"> :الدبلوم العالي</p>
+        <p>هو اول فرع يتخصص بالدراسات العليا ضمن مجال هندسة الملاحة و التوجيه في الجامعات الهندسية العراقية. يعنى الفرع بدراسة تقنيات تحديد مواقع المركبات و تحديد مسارها و توجيهها لاهدافها. أضافة الى رفد المؤسسات ذات الصلة والقطاعات الخاصة بكوادر متقدمة وبكفاءة عالية في مجال هندسة الملاحة والتوجيه لهم اِلمام ومعرفة في تقنيات هندسة الملاحة والتوجيه، تؤهلهم للعمل في تصميم وتنفيذ المنظومات الملاحية المختلفة</p>
+      </div>
+      
+      <div class="box p-1">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="background:rgba(0, 77, 64, 1); height:2px; border: 0px; ">
+  </section>
+
+  <section id="trainers" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading py-1 text-center">النشاطات <span class="primary-text">المهمة </span> في الفرع</h2>
+      <div class="trainer-boxes">
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/12.jpg" alt="Trainer-1">
+          <span class="primary-text">  هندسة الملاحة والتوجيه</span>
+          
+          <p>احد افرع هندسة الكهروميكانيك في الجامعة التكنولوجية</p>
+
+          <ul>
+            <li><a href=https://www.facebook.com/profile.php?id=100018142990143&mibextid=LQQJ4d><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/krade3/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/16.jpg" alt="Trainer-2">
+          <span class="primary-text">  جولة استطلاعية في مطار بغداد</span>
+          
+          <p>في زيارة علمية ... الملاحة الجوية تستقبل الكادر التدريسي وطلاب الجامعة التكنولوجية
+
+            استقبلت الشركة العامة لخدمات الملاحة الجوية اليوم الخميس ، وفد من الكادر التدريسي وطلاب الجامعة التكنولوجية قسم هندسة الكهروميكانيك المرحلة الثانية لفرع الملاحة والتوجيه برئاسة د حاتم كريم ود. رياض عدنان والوفد المرافق لهم من الاساتذة والطلبة في زيارة علمية لمقر الشركة الكائن داخل مطار بغداد الدولي . </p>
+
+          <ul>
+            <li><a href=https://www.facebook.com/profile.php?id=100018142990143&mibextid=LQQJ4d><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/krade3/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/100.jpg" alt="Trainer-3">
+          <span class="primary-text">البوت الخاص في فرع الملاحة </span>
+          <h4 style="color: rgb(21, 202, 36);"> @krade3bot</h4>
+          <p>   تم تطوير هذا البوت على تطبيق التيليكرام واضافة جميع الملازم والملخصات والاسئلة المهمة ,لتسهيل البحث على الطالب</p>
+
+          <ul>
+            <li><a href=https://www.facebook.com/profile.php?id=100018142990143&mibextid=LQQJ4dhttps://www.facebook.com/profile.php?id=100018142990143&mibextid=LQQJ4d><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/krade3/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
 
 
-body{
-  font-family: 'Cairo', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 
 
+
+        <div class="trainer-box box-shadow p-1">
+            <img src="./img/200.png" alt="Trainer-3">
+            <span class="primary-text">مبادرة الطالب</span>
+          <h4>بأشراف شخصي </h4>
+          
+            <p>                          تم انشاء هذا الموقع بجهود فردية للطالب : علي حيدر                </p>
+  
+            <ul>
+              <li><a href=https://www.facebook.com/profile.php?id=100018142990143&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/krade3/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+
+
+
+
+      </div>
+    </div>
+    
+  </section>
+  
+
+  <section id="contact">
+    <div class="contact-us bg-primary p-1">
+      <h3 class="m-heading py-1">للتواصل معي</h3>
+      <a href=https://instagram.com/krade3?igshid=NTc4MTIwNjQ2YQ==><h2>أضغط هنا</h2></a>
+ <a href=https://instagram.com/krade3?igshid=NTc4MTIwNjQ2YQ==><i class="fab fa-instagram"></i></a>
+    </div>
+    
+
+  <!-- Footer -->
+    
+    </div>
+
+<footer class="text-center py-1 bg-dark">
+  <p style=" text-align: center;
+  background-color: ;
+  width: 100%;
+  font-size:18px;
+  color: #ac405c;
+  height: 30px;
+  
+  border-radius: 50px;
+ 
+">جميع الحقوق محفوظة للمهندس علي 2023 </p>
+</footer>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1660.7623807993673!2d44.44949717201798!3d33.30993001461566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15578162869efe83%3A0x892e02877e75b47!2z2KfZhNis2KfZhdi52Kkg2KfZhNiq2YPZhtmI2YTZiNis2YrYqQ!5e0!3m2!1sar!2siq!4v1695505030734!5m2!1sar!2siq" width="390" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+ 
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Google Map -->
+  <script defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcRgTWO9RZnunH9bTqxNOHMH6rNCtbuzY&callback=initMap">
+  </script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/f5264f338f.js" crossorigin="anonymous"></script>
+  <!-- Main js -->
+  <script src="js/main.js"></script>
+
+
+
+
+
+
+  <button onclick="ScrollToTop()" id="ttpbtn" class="GoToTopButton"><i class="fa-solid fa-chevron-up"></i></button>
+</body>
+
+</html>
